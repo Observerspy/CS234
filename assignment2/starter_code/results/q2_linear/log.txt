@@ -1,0 +1,41 @@
+2017-12-26 21:50:13,070:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2017-12-26 21:50:13,074:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2017-12-26 21:50:13,076:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2017-12-26 21:50:13,077:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2017-12-26 21:50:13,079:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2017-12-26 21:50:13,081:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2017-12-26 21:50:13,082:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2017-12-26 21:50:13,084:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2017-12-26 21:50:13,805:INFO: Evaluating...
+2017-12-26 21:50:13,889:INFO: Average reward: -0.50 +/- 0.00
+2017-12-26 21:51:13,153:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2017-12-26 21:51:13,155:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2017-12-26 21:51:13,157:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2017-12-26 21:51:13,158:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2017-12-26 21:51:13,160:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2017-12-26 21:51:13,162:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2017-12-26 21:51:13,163:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2017-12-26 21:51:13,165:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2017-12-26 21:51:13,942:INFO: Evaluating...
+2017-12-26 21:51:14,017:INFO: Average reward: 0.50 +/- 0.00
+2017-12-26 21:51:15,034:INFO: Evaluating...
+2017-12-26 21:51:15,065:INFO: Average reward: 0.50 +/- 0.00
+2017-12-26 21:51:16,160:INFO: Evaluating...
+2017-12-26 21:51:16,192:INFO: Average reward: 1.10 +/- 0.00
+2017-12-26 21:51:17,294:INFO: Evaluating...
+2017-12-26 21:51:17,326:INFO: Average reward: 1.90 +/- 0.00
+2017-12-26 21:51:18,418:INFO: Evaluating...
+2017-12-26 21:51:18,450:INFO: Average reward: 1.90 +/- 0.00
+2017-12-26 21:51:19,973:INFO: Evaluating...
+2017-12-26 21:51:20,005:INFO: Average reward: 2.10 +/- 0.00
+2017-12-26 21:51:21,112:INFO: Evaluating...
+2017-12-26 21:51:21,146:INFO: Average reward: 2.10 +/- 0.00
+2017-12-26 21:51:22,234:INFO: Evaluating...
+2017-12-26 21:51:22,265:INFO: Average reward: 2.10 +/- 0.00
+2017-12-26 21:51:23,364:INFO: Evaluating...
+2017-12-26 21:51:23,397:INFO: Average reward: 2.10 +/- 0.00
+2017-12-26 21:51:24,486:INFO: Evaluating...
+2017-12-26 21:51:24,518:INFO: Average reward: 2.10 +/- 0.00
+2017-12-26 21:51:26,004:INFO: - Training done.
+2017-12-26 21:51:26,347:INFO: Evaluating...
+2017-12-26 21:51:26,379:INFO: Average reward: 2.10 +/- 0.00
