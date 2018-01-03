@@ -233,7 +233,7 @@ def render_single(env, policy):
 # Feel free to run your own debug code in main!
 def main():
     env = gym.make('Stochastic-4x4-FrozenLake-v0')
-    policy = learn_with_mdp_model(env)
+    policy = learn_with_mdp_model(env, num_episodes=1000)
     score = []
     for i in range(100):
         episode_reward = render_single(env, policy)
@@ -241,9 +241,10 @@ def main():
     for i in range(len(score)):
         score[i] = np.mean(score[:i + 1])
     plt.plot(np.arange(100), np.array(score))
-    plt.title('The running average score of the Q-learning agent')
+    plt.title('The running average score of the model based agent')
     plt.xlabel('training episodes')
     plt.ylabel('score')
+    plt.savefig('model_based.png')
     plt.show()
 
 

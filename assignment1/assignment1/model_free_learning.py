@@ -138,7 +138,7 @@ def render_single_Q(env, Q):
 # Feel free to run your own debug code in main!
 def main():
     env = gym.make('Stochastic-4x4-FrozenLake-v0')
-    Q = learn_Q_QLearning(env)
+    Q = learn_Q_QLearning(env, num_episodes=1000)
     # Q = learn_Q_SARSA(env)
     score = []
     for i in range(100):
@@ -150,6 +150,7 @@ def main():
     plt.title('The running average score of the Q-learning agent')
     plt.xlabel('traning episodes')
     plt.ylabel('score')
+    plt.savefig('q_learning.png')
     plt.show()
 
 if __name__ == '__main__':

@@ -177,7 +177,7 @@ def policy_iteration(P, nS, nA, gamma=0.9, max_iteration=20, tol=1e-3):
     while True:
         V = policy_evaluation(P, nS, nA, policy)
         policy_new = policy_improvement(P, nS, nA, V, policy)
-        if np.all(policy_new==policy):
+        if np.all(policy_new == policy):
             break
         policy = policy_new
     return V, policy
