@@ -1,0 +1,1322 @@
+2018-02-28 10:50:32,681:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2018-02-28 10:50:32,682:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2018-02-28 10:50:32,682:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2018-02-28 10:50:32,683:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2018-02-28 10:50:32,757:INFO: Making new env: CartPole-v0
+2018-02-28 10:50:32,758:INFO: Starting new video recorder writing to /home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:32,758:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,070:DEBUG: Starting ffmpeg with "avconv -nostats -loglevel error -y -r 50 -f rawvideo -s:v 600x400 -pix_fmt rgb24 -i - -vcodec libx264 -pix_fmt yuv420p /home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4"
+2018-02-28 10:50:33,121:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,130:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,137:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,144:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,150:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,167:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,184:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,200:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,231:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,247:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,257:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,268:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,284:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,301:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,318:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,334:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,351:INFO: Average reward: 16.00 +/- 0.00
+2018-02-28 10:50:33,352:DEBUG: Closing video encoder: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.0.27001.video000000.mp4
+2018-02-28 10:50:33,377:DEBUG: Writing training manifest file to /home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.manifest.0.27001.manifest.json
+2018-02-28 10:50:33,377:INFO: Finished writing results. You can upload them to the scoreboard via gym.upload('/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0')
+2018-02-28 10:50:33,645:INFO: Average reward: 21.43 +/- 1.42
+2018-02-28 10:50:33,832:INFO: Average reward: 23.09 +/- 1.85
+2018-02-28 10:50:34,011:INFO: Average reward: 24.38 +/- 1.87
+2018-02-28 10:50:34,186:INFO: Average reward: 32.80 +/- 3.05
+2018-02-28 10:50:34,373:INFO: Average reward: 36.00 +/- 5.62
+2018-02-28 10:50:34,563:INFO: Average reward: 39.56 +/- 3.98
+2018-02-28 10:50:34,753:INFO: Average reward: 54.56 +/- 5.96
+2018-02-28 10:50:34,980:INFO: Average reward: 58.18 +/- 8.36
+2018-02-28 10:50:35,206:INFO: Average reward: 61.47 +/- 6.64
+2018-02-28 10:50:35,391:INFO: Average reward: 54.59 +/- 4.53
+2018-02-28 10:50:35,562:INFO: Average reward: 66.64 +/- 7.83
+2018-02-28 10:50:35,739:INFO: Average reward: 60.75 +/- 4.97
+2018-02-28 10:50:35,940:INFO: Average reward: 74.77 +/- 7.84
+2018-02-28 10:50:36,129:INFO: Average reward: 65.60 +/- 5.72
+2018-02-28 10:50:36,173:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:36,305:INFO: Average reward: 90.00 +/- 13.24
+2018-02-28 10:50:36,478:INFO: Average reward: 80.33 +/- 5.98
+2018-02-28 10:50:36,646:INFO: Average reward: 88.55 +/- 7.48
+2018-02-28 10:50:36,679:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:36,833:INFO: Average reward: 139.83 +/- 20.44
+2018-02-28 10:50:37,041:INFO: Average reward: 126.71 +/- 9.88
+2018-02-28 10:50:37,250:INFO: Average reward: 130.71 +/- 13.73
+2018-02-28 10:50:37,291:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,380:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,460:INFO: Average reward: 151.50 +/- 18.91
+2018-02-28 10:50:37,495:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,560:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,591:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,634:INFO: Average reward: 184.60 +/- 12.69
+2018-02-28 10:50:37,668:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,699:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,732:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,798:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,816:INFO: Average reward: 194.60 +/- 4.83
+2018-02-28 10:50:37,852:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,884:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,916:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,949:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,981:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:37,993:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:38,025:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,063:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,100:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,132:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,163:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,175:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:38,244:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,277:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,308:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,341:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,357:INFO: Average reward: 195.60 +/- 3.94
+2018-02-28 10:50:38,393:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,426:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,459:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,497:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,529:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,540:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:38,573:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,617:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,653:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,685:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,716:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,728:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:38,761:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,792:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,824:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,858:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,898:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,910:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:38,944:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:38,975:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,009:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,042:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,074:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,085:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:39,119:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,159:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,194:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,230:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,266:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,278:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:39,321:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,354:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,387:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,422:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,457:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,468:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:39,534:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,574:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,606:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,638:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,653:INFO: Average reward: 195.60 +/- 3.94
+2018-02-28 10:50:39,688:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,721:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,754:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,789:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,828:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,840:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:39,874:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,906:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,942:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:39,979:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,015:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,027:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:40,067:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,110:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,146:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,178:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,215:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,227:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:40,261:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,293:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,324:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,359:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,392:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,403:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:40,436:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,469:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,508:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,540:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,582:INFO: Average reward: 192.20 +/- 6.98
+2018-02-28 10:50:40,618:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,649:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,681:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,713:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,752:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,763:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:40,799:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,830:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,882:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,920:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:40,949:INFO: Average reward: 179.80 +/- 18.07
+2018-02-28 10:50:40,983:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,019:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,068:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,101:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,128:INFO: Average reward: 180.40 +/- 17.53
+2018-02-28 10:50:41,181:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,213:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,245:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,280:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,312:INFO: Average reward: 176.40 +/- 21.11
+2018-02-28 10:50:41,345:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,377:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,432:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,465:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,495:INFO: Average reward: 177.20 +/- 20.39
+2018-02-28 10:50:41,529:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,570:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,604:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,636:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,669:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,681:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:41,717:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,750:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,783:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,824:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,859:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,871:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:41,904:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,936:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:41,972:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,005:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,037:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,053:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:42,092:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,127:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,159:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,191:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,228:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,240:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:42,275:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,306:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,339:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,373:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,404:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,416:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:42,449:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,490:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,532:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,573:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,617:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,629:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:42,673:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,713:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,753:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,793:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,834:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,846:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:42,888:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,931:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,964:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:42,997:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,029:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,041:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:43,073:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,104:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,136:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,167:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,198:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,209:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:43,242:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,276:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,308:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,340:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,371:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,382:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:43,414:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,446:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,477:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,509:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,541:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,552:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:43,586:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,616:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,647:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,679:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,713:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,724:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:43,762:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,793:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,825:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,858:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,890:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,901:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:43,934:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,966:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:43,998:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,030:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,061:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,073:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:44,104:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,137:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,169:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,201:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,232:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,244:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:44,276:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,308:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,341:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,373:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,405:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,416:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:44,449:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,480:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,511:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,543:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,575:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,586:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:44,618:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,650:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,681:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,713:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,744:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,756:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:44,788:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,821:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,853:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,885:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,920:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,931:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:44,965:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:44,997:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,029:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,064:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,096:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,107:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:45,139:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,171:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,205:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,246:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,287:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,298:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:45,334:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,366:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,396:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,428:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,460:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,472:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:45,505:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,536:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,568:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,600:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,631:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,643:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:45,676:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,709:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,742:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,773:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,804:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,816:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:45,849:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,881:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,914:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,945:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,976:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:45,987:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:46,019:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,051:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,082:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,114:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,147:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,158:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:46,190:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,223:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,254:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,285:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,318:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,329:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:46,362:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,394:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,426:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,458:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,490:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,501:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:46,534:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,566:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,599:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,630:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,662:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,673:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:46,706:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,738:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,771:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,808:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,842:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,854:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:46,889:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,921:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,953:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:46,984:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,017:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,028:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:47,061:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,092:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,124:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,156:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,188:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,199:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:47,232:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,264:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,295:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,326:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,357:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,369:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:47,400:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,432:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,464:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,496:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,528:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,540:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:47,572:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,605:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,639:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,674:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,710:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,721:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:47,757:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,788:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,820:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,855:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,890:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,902:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:47,937:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:47,972:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,006:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,043:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,078:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,090:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:48,126:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,160:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,199:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,235:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,272:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,283:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:48,318:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,350:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,383:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,416:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,450:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,461:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:48,494:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,526:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,559:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,591:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,625:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,636:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:48,668:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,701:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,732:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,765:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,798:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,809:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:48,842:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,874:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,906:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,938:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,971:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:48,982:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:49,018:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,053:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,089:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,125:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,162:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,173:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:49,206:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,238:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,270:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,302:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,335:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,347:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:49,381:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,413:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,445:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,475:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,508:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,519:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:49,552:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,584:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,616:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,649:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,681:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,692:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:49,724:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,756:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,787:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,818:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,850:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,861:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:49,893:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,925:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,956:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:49,988:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,021:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,032:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:50,066:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,098:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,131:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,162:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,194:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,205:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:50,238:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,270:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,301:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,334:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,365:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,377:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:50,409:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,442:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,473:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,504:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,536:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,548:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:50,579:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,610:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,642:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,676:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,709:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,721:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:50,753:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,784:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,815:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,848:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,881:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,893:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:50,925:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,957:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:50,990:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,025:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,063:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,076:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:51,113:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,153:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,193:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,229:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,264:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,276:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:51,316:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,351:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,387:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,425:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,464:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,476:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:51,516:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,552:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,586:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,621:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,655:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,667:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:51,704:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,740:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,775:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,811:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,846:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,857:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:51,891:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,941:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:51,976:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,012:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,047:INFO: Average reward: 171.20 +/- 25.76
+2018-02-28 10:50:52,083:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,117:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,149:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,180:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,213:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,225:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:52,258:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,291:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,326:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,361:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,394:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,407:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:52,444:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,478:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,512:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,548:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,584:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,596:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:52,635:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,670:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,705:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,739:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,772:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,784:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:52,818:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,854:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,888:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,920:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,952:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:52,963:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:52,996:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,028:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,061:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,093:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,124:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,136:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:53,170:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,206:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,242:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,279:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,315:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,326:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:53,361:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,397:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,430:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,462:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,494:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,505:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:53,539:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,573:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,607:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,640:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,675:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,687:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:53,727:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,762:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,795:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,828:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,860:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,872:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:53,905:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,938:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:53,971:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,003:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,036:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,048:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:54,082:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,114:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,147:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,180:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,213:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,225:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:54,257:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,289:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,320:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,354:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,386:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,397:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:54,429:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,460:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,491:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,522:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,554:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,565:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:54,597:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,629:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,665:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,697:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,729:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,740:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:54,774:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,805:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,838:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,874:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,908:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,920:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:54,953:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:54,985:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,017:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,049:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,081:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,092:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:55,125:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,157:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,187:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,219:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,251:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,263:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:55,298:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,333:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,368:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,401:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,436:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,447:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:55,480:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,513:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,545:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,577:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,608:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,620:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:55,652:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,685:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,717:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,749:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,781:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,792:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:55,825:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,858:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,890:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,922:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,955:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:55,967:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:55,999:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,031:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,070:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,107:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,139:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,150:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:56,185:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,217:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,249:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,281:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,315:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,326:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:56,364:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,400:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,436:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,471:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,508:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,520:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:56,556:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,593:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,627:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,662:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,697:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,709:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:56,743:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,776:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,808:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,840:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,872:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,883:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:56,915:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,948:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:56,982:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,016:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,051:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,063:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:57,096:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,130:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,165:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,197:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,228:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,239:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:57,272:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,303:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,335:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,366:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,398:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,410:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:57,443:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,475:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,506:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,539:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,571:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,582:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:57,615:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,647:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,679:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,710:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,743:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,755:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:57,786:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,818:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,849:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,881:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,914:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,925:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:57,957:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:57,988:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,019:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,051:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,085:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,096:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:58,128:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,159:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,191:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,223:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,266:INFO: Average reward: 181.40 +/- 16.64
+2018-02-28 10:50:58,298:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,330:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,361:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,394:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,426:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,437:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:58,470:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,503:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,535:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,568:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,600:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,611:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:58,643:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,675:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,708:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,768:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,783:INFO: Average reward: 195.60 +/- 3.94
+2018-02-28 10:50:58,815:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,848:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,881:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,913:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,946:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:58,957:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:58,990:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,022:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,055:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,087:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,119:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,130:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:59,164:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,196:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,228:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,266:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,301:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,313:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:59,345:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,383:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,415:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,446:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,482:INFO: Average reward: 167.40 +/- 29.16
+2018-02-28 10:50:59,515:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,547:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,594:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,629:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,655:INFO: Average reward: 180.60 +/- 17.35
+2018-02-28 10:50:59,688:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,722:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,755:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,787:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,819:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,831:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:50:59,865:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,900:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,936:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:50:59,973:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,010:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,022:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:00,055:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,087:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,119:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,151:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,183:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,195:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:00,228:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,260:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,292:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,324:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,357:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,369:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:00,401:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,432:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,464:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,495:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,527:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,538:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:00,570:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,603:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,634:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,665:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,696:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,707:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:00,740:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,771:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,803:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,835:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,868:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,879:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:00,911:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,946:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:00,981:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,018:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,053:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,064:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:01,097:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,129:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,160:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,191:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,223:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,234:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:01,267:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,299:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,332:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,363:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,394:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,406:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:01,439:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,471:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,503:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,534:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,566:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,577:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:01,609:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,641:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,673:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,706:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,739:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,750:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:01,783:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,815:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,846:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,877:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,909:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,921:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:01,954:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:01,986:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,018:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,049:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,081:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,092:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:02,124:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,156:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,188:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,221:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,253:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,265:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:02,298:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,330:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,364:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,396:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,428:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,440:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:02,472:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,506:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,538:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,571:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,603:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,614:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:02,646:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,679:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,710:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,744:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,777:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,789:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:02,822:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,854:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,886:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,918:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,950:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:02,962:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:02,994:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,026:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,059:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,091:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,123:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,134:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:03,167:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,199:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,231:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,264:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,296:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,307:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:03,341:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,372:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,404:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,436:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,467:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,478:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:03,510:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,544:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,577:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,609:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,641:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,653:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:03,684:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,716:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,748:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,779:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,810:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,822:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:03,855:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,886:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,919:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,950:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,982:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:03,993:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:04,025:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,058:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,091:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,122:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,154:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,165:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:04,198:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,230:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,262:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,295:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,329:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,340:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:04,378:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,414:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,451:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,489:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,525:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,544:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:04,581:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,618:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,658:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,694:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,733:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,746:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:04,785:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,819:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,852:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,886:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,918:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,930:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:04,962:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:04,995:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,029:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,066:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,101:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,114:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:05,152:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,188:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,225:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,264:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,301:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,313:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:05,352:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,389:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,424:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,458:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,493:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,505:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:05,537:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,569:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,602:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,637:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,671:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,682:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:05,715:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,748:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,779:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,812:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,843:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,855:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:05,886:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,916:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,948:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:05,981:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,013:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,025:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:06,057:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,088:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,119:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,151:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,182:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,194:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:06,226:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,258:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,289:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,320:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,352:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,363:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:06,396:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,429:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,461:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,493:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,526:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,538:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:06,571:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,606:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,642:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,677:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,710:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,722:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:06,754:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,786:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,817:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,848:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,880:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,891:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:06,929:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,964:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:06,999:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,035:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,072:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,083:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:07,120:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,156:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,193:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,228:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,261:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,272:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:07,309:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,346:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,382:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,419:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,456:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,468:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:07,503:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,537:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,570:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,602:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,634:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,646:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:07,679:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,712:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,748:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,781:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,814:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,825:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:07,860:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,896:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,932:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:07,966:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,000:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,011:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:08,044:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,075:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,107:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,140:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,173:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,184:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:08,216:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,247:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,279:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,311:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,344:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,356:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:08,390:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,422:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,453:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,484:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,515:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,527:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:08,560:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,591:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,623:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,654:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,686:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,697:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:08,729:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,762:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,794:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,826:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,857:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,868:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:08,899:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,933:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:08,967:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,002:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,038:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,049:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:09,083:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,117:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,151:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,186:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,221:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,233:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:09,269:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,300:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,332:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,365:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,398:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:09,409:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:09,409:INFO: - Training done.
+2018-02-28 10:51:09,503:INFO: Making new env: CartPole-v0
+2018-02-28 10:51:09,504:INFO: Starting new video recorder writing to /home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,505:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,535:DEBUG: Starting ffmpeg with "avconv -nostats -loglevel error -y -r 50 -f rawvideo -s:v 600x400 -pix_fmt rgb24 -i - -vcodec libx264 -pix_fmt yuv420p /home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4"
+2018-02-28 10:51:09,576:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,586:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,594:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,601:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,608:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,638:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,654:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,665:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,677:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,703:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,716:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,729:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,745:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,761:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,789:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,807:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,818:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,826:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,842:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,871:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,882:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,893:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,917:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,928:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,948:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,968:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:09,984:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,001:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,017:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,029:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,047:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,073:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,092:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,104:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,115:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,128:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,145:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,172:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,187:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,203:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,217:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,229:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,242:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,259:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,290:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,308:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,319:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,329:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,345:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,362:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,390:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,408:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,418:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,427:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,442:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,471:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,482:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,496:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,513:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,528:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,546:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,562:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,580:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,597:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,623:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,640:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,650:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,663:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,679:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,698:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,712:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,729:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,746:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,762:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,779:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,795:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,812:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,829:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,846:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,863:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,890:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,913:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,929:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,945:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,957:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,966:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:10,977:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,003:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,013:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,034:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,045:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,073:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,085:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,096:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,113:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,130:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,146:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,163:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,179:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,196:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,213:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,229:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,247:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,262:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,281:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,297:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,314:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,330:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,347:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,373:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,389:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,405:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,419:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,432:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,457:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,476:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,488:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,498:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,512:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,528:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,546:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,561:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,578:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,595:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,624:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,646:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,669:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,689:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,699:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,709:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,716:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,728:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,743:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,760:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,778:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,795:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,811:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,828:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,845:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,863:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,880:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,898:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,914:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,931:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,947:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,964:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,980:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:11,997:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,014:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,031:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,056:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,067:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,078:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,097:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,111:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,128:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,144:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,161:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,177:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,195:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,211:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,242:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,259:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,270:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,281:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,297:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,314:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,331:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,347:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,375:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,398:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,419:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,442:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,455:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,468:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,481:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,494:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,506:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,514:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,528:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,544:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,574:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,596:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,620:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,638:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,654:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,670:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,686:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,702:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,719:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,735:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,750:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,766:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,778:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,787:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,796:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,813:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,830:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,846:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,863:DEBUG: Env has passed the step limit defined by TimeLimit.
+2018-02-28 10:51:12,863:DEBUG: Capturing video frame: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,879:INFO: Average reward: 200.00 +/- 0.00
+2018-02-28 10:51:12,880:DEBUG: Closing video encoder: path=/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.video.1.27001.video000000.mp4
+2018-02-28 10:51:12,913:DEBUG: Writing training manifest file to /home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0/openaigym.manifest.1.27001.manifest.json
+2018-02-28 10:51:12,913:INFO: Finished writing results. You can upload them to the scoreboard via gym.upload('/home/codekitty/WORK/RL/CS234/2018/assignment3/starter_code/results/CartPole-v0')
